@@ -30,11 +30,15 @@ $ cd wide-life
 # Install the dependencies
 $ yarn install
 
-# Start the backend
+# Start the application
 $ yarn dev
 ```
 
+After following these steps, the terminal will show you in which port it's running, it's on the port 3000 usually, so, you'll just need to enter in your browser and
+type `localhost:3000`, then you'll be able to check the app running. When you want to stop it, go to the terminal that you used to start the app, and type <kbd>CTRL</kbd>+<kbd>C</kbd>,
+this way you'll stop the app
 
+<br />
 
 <h2 id="demo" name="demo">
 🎥 Demo
