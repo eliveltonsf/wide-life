@@ -1,0 +1,19 @@
+[{
+  "name" : "Lembrete 1",
+  "type": "email",
+  "description": "Verificação de cosulta",
+  "status": "pendente"
+},
+{
+  "name" : "Lembrete 2",
+  "type": "pdf",
+  "description": "Relatorio de faturamento",
+  "status": "verificado"
+},
+{
+  "name" : "Lembrete 3",
+  "type": "call",
+  "description": "Duvidas de um paciente",
+  "status": "verificado"
+}
+]

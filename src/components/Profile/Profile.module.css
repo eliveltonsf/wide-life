@@ -1,0 +1,48 @@
+.profileContainer {
+  display: flex;
+  align-items: center;
+}
+
+.profileContainer > img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.profileContainer div {
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  /* justify-content: center; */
+}
+
+.profileContainer div strong {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.profileContainer div a {
+ color: var(--background-test-link);
+ transition: filter 0.2s;
+}
+
+.profileContainer div a:hover {
+  filter: brightness(0.9);
+ }
+
+
+.profileContainer div p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.profileContainer div p img{
+  margin-right: 0.5rem;
+}
+
+.profileContainer .infoDoctor strong {
+  color: var(--text);
+  margin-left: 0.5rem;
+}

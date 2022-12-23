@@ -1,0 +1,54 @@
+
+@keyframes animate {
+  0%{
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  50%{
+    opacity: .3;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.cutomBoxContainer {
+  width: 32%;
+  height: 150px;
+  margin: 10px 0;
+  border-radius: 7px;
+  padding: 10px 20px;
+
+  position: relative;
+  overflow: hidden;
+
+  animation: animate 0.7s;
+}
+
+.cutomBoxContainer > img {
+    top: -10px;
+    right: -28px;
+    height: 110%;
+    position: absolute;
+    opacity: 30%;
+  }
+
+.cutomBoxContainer > span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cutomBoxContainer> small {
+  bottom: 10px;
+  font-size: 12px;
+  position: absolute;
+}
+
+.cutomBoxContainer > strong::after {
+  content: ' ';
+  width: 7px;
+  display: inline-block;
+}
+
+

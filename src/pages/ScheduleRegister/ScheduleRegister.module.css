@@ -1,0 +1,65 @@
+.schedulesRegisterContainer {
+  color: var(--title);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.schedulesRegisterContainer > aside {
+  height: 100vh;
+  border-radius: 0.625rem;
+}
+
+.schedulesRegisterContainer .checkContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0.75rem;
+  gap: 0.2rem;
+}
+
+.schedulesRegisterContainer .checkContainer > div {
+  display: flex;
+  justify-content: center;
+  background: var(--background-test-link);
+  padding: 0.05rem 0;
+  border-radius: 5px;
+  color: var(--background-test-aside);
+}
+
+.messageError {
+  color: var(--red);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.doctorCardBody{
+  padding: 0.75rem !important;
+}
+
+.addressOptions {
+  height: 20px
+}
+
+.addressOptionsContainer {
+  height: 150px;
+   margin: 10px 0
+}
+
+.optionsAddress {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin: 10px;
+}
+
+.resultAddress {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  background: #EAEAEA;
+  height: auto;
+  margin-bottom: 20px;
+}

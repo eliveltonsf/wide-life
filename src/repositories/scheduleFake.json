@@ -1,0 +1,88 @@
+[{
+  "name" : "John Doe",
+  "email": "john.doe@gmail.com",
+  "cpf": "34464320350",
+  "doctor": {
+    "name": "Dra. Sandy",
+    "crm": 123456,
+    "date": "Fri Dec 23 2022",
+    "hour": 7
+  },
+  "address": {
+    "street": "Rua",
+    "number": "001",
+    "district": "Centro",
+    "city": "Fortaleza",
+    "state": "CE",
+    "country": "BR",
+    "long": "23423",
+    "lat": "23423"
+  },
+  "price": 100
+},
+{
+  "name" : "Alex Ray",
+  "email": "alex.ray@gmail.com",
+  "cpf": "03620759804",
+  "doctor": {
+    "name": "Dra. Sandy",
+    "crm": 123456,
+    "date": "Fri Dec 23 2022",
+    "hour": 11
+  },
+  "address": {
+    "street": "Rua",
+    "number": "001",
+    "district": "Centro",
+    "city": "Fortaleza",
+    "state": "CE",
+    "country": "BR",
+    "long": "23423",
+    "lat": "23423"
+  },
+  "price": 200
+},
+{
+  "name" : "Kate Hunington",
+  "email": "kate.hunington@gmail.com",
+  "cpf": "44174829004",
+  "doctor": {
+    "name": "Dra. Sandy",
+    "crm": 123456,
+    "date": "Fri Dec 23 2022",
+    "hour": 18
+  },
+  "address": {
+    "street": "Rua",
+    "number": "001",
+    "district": "Centro",
+    "city": "Fortaleza",
+    "state": "CE",
+    "country": "BR",
+    "long": "23423",
+    "lat": "23423"
+  },
+  "price": 300
+},
+{
+  "name" : "Alex Ray",
+  "email": "alex.ray@gmail.com",
+  "cpf": "03620759804",
+  "doctor": {
+    "name": "Dra. Sandy",
+    "crm": 123456,
+    "date": "Fri Dec 23 2022",
+    "hour": 15
+  },
+  "address": {
+    "street": "Rua",
+    "number": "001",
+    "district": "Centro",
+    "city": "Fortaleza",
+    "state": "CE",
+    "country": "BR",
+    "long": "23423",
+    "lat": "23423"
+  },
+  "price": 100
+}]

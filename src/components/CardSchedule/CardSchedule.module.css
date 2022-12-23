@@ -1,0 +1,11 @@
+
+
+.cardScheduleBody {
+  padding: 0.625rem !important;
+}
+.cardScheduleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 !important;
+}

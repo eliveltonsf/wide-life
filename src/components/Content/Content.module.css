@@ -1,0 +1,26 @@
+
+
+.mainContainer {
+  grid-area: CT;
+  color: var(--blue-dark);
+  background: var(--background);
+
+  padding: 25px;
+
+  height: calc(100vh - 70px);
+  overflow: hidden;
+}
+
+
+.mainContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.mainContainer::-webkit-scrollbar-thumb {
+  background: var(--blue-twitter);
+  border-radius: 10px;
+}
+
+.mainContainer::-webkit-scrollbar-track {
+  background: var(--background)
+}
