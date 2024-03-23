@@ -26,6 +26,7 @@
     "react-router-dom": "^6.5.0",
     "react-shadow-scroll": "^2.1.1",
     "sassy-datepicker": "^0.10.2",
+    "styled-components": "^6.1.8",
     "yup": "^0.32.11"
   },
   "devDependencies": {
