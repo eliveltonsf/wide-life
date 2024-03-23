@@ -1,13 +1,12 @@
-
 @keyframes animate {
-  0%{
+  0% {
     transform: translateY(-50px);
     opacity: 0;
   }
-  50%{
-    opacity: .3;
+  50% {
+    opacity: 0.3;
   }
-  100%{
+  100% {
     transform: translateY(0px);
     opacity: 1;
   }
@@ -27,19 +26,19 @@
 }
 
 .cutomBoxContainer > img {
-    top: -10px;
-    right: -28px;
-    height: 110%;
-    position: absolute;
-    opacity: 30%;
-  }
+  top: -10px;
+  right: -28px;
+  height: 110%;
+  position: absolute;
+  opacity: 30%;
+}
 
 .cutomBoxContainer > span {
   font-size: 18px;
   font-weight: 500;
 }
 
-.cutomBoxContainer> small {
+.cutomBoxContainer > small {
   bottom: 10px;
   font-size: 12px;
   position: absolute;
@@ -50,5 +49,3 @@
   width: 7px;
   display: inline-block;
 }
-
-

@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import ScheduleTable from 'components/ScheduleTable';
-import styles from './Schedules.module.css';
+import SelectInput from 'components/SelectInput';
+import { useEffect, useMemo, useState } from 'react';
+import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-import Button from 'react-bootstrap/Button';
 import { MdAdd } from 'react-icons/md';
-import SelectInput from 'components/SelectInput';
-import React, { useEffect, useMemo, useState } from 'react';
+import styles from './Schedules.module.css';
 
 import scheduleFake from 'repositories/scheduleFake.json';
 
@@ -38,7 +38,6 @@ const Schedules = () => {
       return item.doctor.date === dateSelected;
     });
     setData(filteredDate);
-    console.log({ data });
   }, [scheduleFake, dateSelected]);
 
   return (

@@ -1,9 +1,9 @@
-import Routes from './routes';
-import 'styles/global.css';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'styles/dataPicker.css';
 import { ToastProvider } from 'hooks/toast';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import 'styles/dataPicker.css';
+import 'styles/global.css';
+import Routes from './routes';
 
 const App = () => {
   return (

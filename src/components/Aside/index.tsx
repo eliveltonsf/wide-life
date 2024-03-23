@@ -2,18 +2,9 @@ import React from 'react';
 
 import styles from './Aside.module.css';
 
-import {
-  MdAppRegistration,
-  MdArrowDownward,
-  MdArrowUpward,
-  MdDashboard,
-  MdExitToApp,
-  MdManageSearch,
-} from 'react-icons/md';
+import { MdAppRegistration, MdDashboard } from 'react-icons/md';
 
 const Aside: React.FC = () => {
-  // const { singOut } = useAuth();
-
   return (
     <aside className={styles.asideContainer}>
       <div>

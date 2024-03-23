@@ -15,7 +15,6 @@ import Form from 'react-bootstrap/Form';
 
 import PlacesAutocomplete, { geocodeByAddress, getLatLng } from 'react-places-autocomplete';
 import ReactShadowScroll from 'react-shadow-scroll';
-import DatePicker from 'sassy-datepicker';
 
 import { MdPlace } from 'react-icons/md';
 
@@ -24,8 +23,8 @@ import { Controller, useForm } from 'react-hook-form';
 import IMaskInput from 'react-input-mask';
 import * as yup from 'yup';
 
-import { useToast } from 'hooks/toast';
 import Calender from 'components/Calender';
+import { useToast } from 'hooks/toast';
 
 interface ICreateScheduleData {
   name: string;
@@ -98,7 +97,6 @@ const ScheduleRegister = () => {
 
   const onChangeCalender = (newDate: SetStateAction<Date>) => {
     setDate(newDate);
-    console.log(dateString);
   };
 
   const handleInfoAddressChange = (e: any) => {
@@ -205,7 +203,6 @@ const ScheduleRegister = () => {
       });
     }
 
-    // efetuar o endpoint de cadastro com o newData
     const newData = {
       ...data,
       doctor: {
@@ -227,7 +224,6 @@ const ScheduleRegister = () => {
       price: Number(infoOptions.price),
     };
 
-    // uma maneira de mostrar o toast de sucesso que devia esta no escopo final de uma requisição
     infoOptions.doctor !== 0 &&
       infoOptions.hour !== '' &&
       addToast({
@@ -236,9 +232,6 @@ const ScheduleRegister = () => {
         description: 'Cadastro efetuado',
         visible: true,
       });
-
-    // simulação de envio
-    console.log({ newData });
   };
 
   return (
@@ -259,7 +252,6 @@ const ScheduleRegister = () => {
                     name="doctor"
                     label={`${doctor.name} - CRM: ${doctor.crm}`}
                     onChange={handleChangeOptions}
-                    // checked={infoOptions.crm === doctor.crm}
                   />
                 </Card.Body>
               </div>
@@ -330,7 +322,6 @@ const ScheduleRegister = () => {
               <div>
                 <Form.Label>Pesquise pelo seu endereço</Form.Label>
                 <Form.Control
-                  // {...register('address')}
                   {...getInputProps({
                     placeholder: 'Buscar ...',
                     className: 'location-search-input',

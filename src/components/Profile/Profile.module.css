@@ -24,21 +24,20 @@
 }
 
 .profileContainer div a {
- color: var(--background-test-link);
- transition: filter 0.2s;
+  color: var(--background-test-link);
+  transition: filter 0.2s;
 }
 
 .profileContainer div a:hover {
   filter: brightness(0.9);
- }
-
+}
 
 .profileContainer div p {
   font-size: 1rem;
   margin-bottom: 0;
 }
 
-.profileContainer div p img{
+.profileContainer div p img {
   margin-right: 0.5rem;
 }
 

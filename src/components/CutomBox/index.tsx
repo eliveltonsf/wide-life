@@ -2,8 +2,8 @@
 import React from 'react';
 import CountUp from 'react-countup';
 
-import dolarImg from 'assets/dolar.svg';
 import arrowUpImg from 'assets/arrow-up.svg';
+import dolarImg from 'assets/dolar.svg';
 
 import styles from './CutomBox.module.css';
 

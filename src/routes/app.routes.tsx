@@ -1,12 +1,10 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
-// import { Layout } from '../components';
-
+import Layout from 'components/Layout';
 import Dashboard from 'pages/Dashboard';
 import ScheduleRegister from 'pages/ScheduleRegister';
 import Schedules from 'pages/Schedules';
-import Layout from 'components/Layout';
 
 const AppRoutes: React.FC = () => (
   <Layout>

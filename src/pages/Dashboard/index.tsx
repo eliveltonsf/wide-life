@@ -1,18 +1,18 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { SetStateAction, useEffect, useMemo, useState } from 'react';
+import { SetStateAction, useEffect, useMemo, useState } from 'react';
 import styles from './Dashboard.module.css';
 
-import scheduleFake from 'repositories/scheduleFake.json';
-import patientFake from 'repositories/patientFake.json';
 import letterheadFake from 'repositories/letterheadFake.json';
+import patientFake from 'repositories/patientFake.json';
+import scheduleFake from 'repositories/scheduleFake.json';
 
-import CutomBox from 'components/CutomBox';
 import Calender from 'components/Calender';
-import ReactShadowScroll from 'react-shadow-scroll';
 import CardSchedule from 'components/CardSchedule';
+import CutomBox from 'components/CutomBox';
+import ReactShadowScroll from 'react-shadow-scroll';
 
-import { Form, InputGroup } from 'react-bootstrap';
 import LetterheadTable from 'components/LetterheadTable';
+import { Form, InputGroup } from 'react-bootstrap';
 
 const Dashboard = () => {
   const [data, setData] = useState<any>();
@@ -59,7 +59,6 @@ const Dashboard = () => {
 
   const onChangeCalender = (newDate: SetStateAction<Date>) => {
     setDate(newDate);
-    console.log(dateString);
   };
 
   return (

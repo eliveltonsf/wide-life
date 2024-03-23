@@ -1,15 +1,14 @@
-
 .dashboardContainer {
- color: var(--title);
- display: grid;
- grid-template-columns: 1fr 1fr;
- gap: 1rem;
+  color: var(--title);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 .dashboardContainer aside {
- display: flex;
- flex-direction: column;
- justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .dashboardContainer section {
@@ -20,7 +19,5 @@
 
 .calendarContainer {
   width: 100% !important;
-  margin: 0.625rem 0 !important
+  margin: 0.625rem 0 !important;
 }
-
-

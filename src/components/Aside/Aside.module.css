@@ -1,4 +1,3 @@
-
 .asideContainer {
   grid-area: AS;
   background: var(--background-test-aside);
@@ -16,13 +15,13 @@
 
 .asideContainer > div a {
   display: flex;
-  align-items:center;
+  align-items: center;
   color: var(--white);
   text-decoration: none;
 
   margin: 0.5rem 0;
 
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
 .asideContainer > div a:hover {
@@ -33,4 +32,3 @@
   font-size: 20px;
   margin-right: 5px;
 }
-

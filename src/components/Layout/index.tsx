@@ -1,10 +1,10 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 
 import styles from './Layout.module.css';
 
-import MainHeader from 'components/MainHeader';
 import Aside from 'components/Aside';
 import Content from 'components/Content';
+import MainHeader from 'components/MainHeader';
 
 interface Props {
   children?: ReactNode;
