@@ -85,4 +85,25 @@
     "lat": "23423"
   },
   "price": 100
+},{
+  "name" : "Alex Ray",
+  "email": "alex.ray@gmail.com",
+  "cpf": "03620759804",
+  "doctor": {
+    "name": "Dra. Sandy",
+    "crm": 123456,
+    "date": "Mon Dec 26 2022",
+    "hour": 15
+  },
+  "address": {
+    "street": "Rua",
+    "number": "001",
+    "district": "Centro",
+    "city": "Fortaleza",
+    "state": "CE",
+    "country": "BR",
+    "long": "23423",
+    "lat": "23423"
+  },
+  "price": 100
 }]
